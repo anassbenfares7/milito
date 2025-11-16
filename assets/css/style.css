@@ -12,7 +12,7 @@
   --secondary-color: #8B4513;    /* Secondary color - Moroccan Brown */
   --accent-color: #ffc400;       /* Gold accent */
   --background-color: #FDF5E6;   /* Warm cream background */
-  --text-color: #efefef;         /* Main text color */
+  --text-color: #010101;         /* Main text color */
   --heading-color: #8B0000;      /* Heading color - Deep Red */
   --border-color: #ffedd4;       /* Light border color */
   --text-color-white: #ffffff;   /* White text */
@@ -312,7 +312,7 @@ header.scrolled {
 
 .logo h1 {
   font-size: 2.5rem;
-  color: var(--text-color);
+  color: var(--text-color-white);
   font-family: "Nunito", sans-serif;
   font-weight: 800;
 }
@@ -320,7 +320,7 @@ header.scrolled {
 .logo a {
   display: flex;
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-color-white);
 }
 
 .logo a i {
@@ -328,7 +328,7 @@ header.scrolled {
 }
 
 .logo a:hover {
-  color: var(--text-color);
+  color: var(--text-color-white);
 }
 
 .menus > ul > li {
@@ -615,7 +615,7 @@ header.scrolled {
  * =================================== */
 
 .banner {
-  background-image: url("./../images/banner.jpg");
+  background-image: url("./../images/decor-13.jpg");
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
@@ -1736,7 +1736,7 @@ body::-webkit-scrollbar-thumb {
 
 /* About Page Styles */
 .about-page .page-banner {
-  background-image: url('./../images/pagetitle-about.jpg');
+  background-image: url('./../images/pagetitle-contact.jpg');
 }
 
 .about-page .about-story .story-timeline .story-indicators .image-box {
