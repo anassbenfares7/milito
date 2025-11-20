@@ -2,111 +2,111 @@
   "categories": [
     {
       "id": "petits-dejeuners",
-      "name": "PETITS DÉJEUNERS (فطور الصباح)",
+      "name": "PETITS DÉJEUNERS\nفطور الصباح",
       "icon": "fas fa-bread-slice",
       "items": [
         {
           "id": "pd1",
-          "name": "EXPRESS (إكسبريس)",
-          "description": "3 Mini Viennoiseries, Boisson chaude au choix, Jus d'orange. (3 ميني كرواسون، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "name": "EXPRESS\nإكسبريس",
+          "description": "3 Mini Viennoiseries, Boisson chaude au choix, Jus d'orange.\n3 ميني كرواسون، مشروب ساخن حسب الاختيار، عصير البرتقال.",
           "price": "26 DH",
-          "imageURL": ""
+          "imageURL": "images/d1.jpeg"
         },
         {
           "id": "pd2",
-          "name": "SPÉCIAL (سبسيال)",
-          "description": "Œuf au choix (omelette ou œuf au plat), Huile d'olive, Olives Noires, Fromage, Corbeille de pain, Boisson chaude au choix, Jus d'orange. (بيض حسب الاختيار (أومليت أو عيون)، زيت زيتون، زيتون أسود، جبن، سلة خبز، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "name": "SPÉCIAL\nسبسيال",
+          "description": "Œuf au choix (omelette ou œuf au plat), Huile d'olive, Olives Noires, Fromage, Corbeille de pain, Boisson chaude au choix, Jus d'orange.\nبيض حسب الاختيار (أومليت أو عيون)، زيت زيتون، زيتون أسود، جبن، سلة خبز، مشروب ساخن حسب الاختيار، عصير البرتقال.",
           "price": "26 DH",
-          "imageURL": ""
+          "imageURL": "images/d0.jpeg"
         },
         {
           "id": "pd3",
-          "name": "PIZZA MAROCAINE (بيتزا مغربية)",
-          "description": "Pain complet, Fromage, Huile d'olive, Thym, Olives noires, Boisson chaude au choix, Jus d'orange. (خبز كامل، جبن، زيت زيتون، زعتر، زيتون أسود، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "name": "PIZZA MAROCAINE\nبيتزا مغربية",
+          "description": "Pain complet, Fromage, Huile d'olive, Thym, Olives noires, Boisson chaude au choix, Jus d'orange.\nخبز كامل، جبن، زيت زيتون، زعتر، زيتون أسود، مشروب ساخن حسب الاختيار، عصير البرتقال.",
           "price": "26 DH",
-          "imageURL": ""
+          "imageURL": "images/d3.jpeg"
         },
         {
           "id": "pd4",
-          "name": "FASSI (فاسي)",
-          "description": "Œuf au khlii, Huile d'olive, Olives Noires, Corbeille de pain, Boisson chaude au choix, Jus d'orange. (بيض بالخليع، زيت زيتون، زيتون أسود، سلة خبز، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "name": "FASSI\nفاسي",
+          "description": "Œuf au khlii, Huile d'olive, Olives Noires, Corbeille de pain, Boisson chaude au choix, Jus d'orange.\nبيض بالخليع، زيت زيتون، زيتون أسود، سلة خبز، مشروب ساخن حسب الاختيار، عصير البرتقال.",
           "price": "32 DH",
-          "imageURL": ""
+          "imageURL": "images/d4.jpeg"
         }
       ]
     },
     {
       "id": "jus-frais",
-      "name": "JUS FRAIS | عصائر طازجة",
+      "name": "JUS FRAIS\nعصائر طازجة",
       "icon": "fas fa-glass-water",
       "items": [
         {
           "id": "jf1",
-          "name": "Jus d'orange (عصير البرتقال)",
-          "description": "Jus d'oranges fraîchement pressées. (عصير برتقال طازج.)",
+          "name": "Jus d'orange\nعصير البرتقال",
+          "description": "Jus d'oranges fraîchement pressées.\nعصير برتقال طازج.",
           "price": "20 DH",
-          "imageURL": ""
+          "imageURL": "images/j1.jpeg"
         },
         {
           "id": "jf2",
-          "name": "Jus de banane (عصير الموز)",
-          "description": "Jus onctueux à la banane. (عصير موز كريمي.)",
+          "name": "Jus de banane\nعصير الموز",
+          "description": "Jus onctueux à la banane.\nعصير موز كريمي.",
           "price": "18 DH",
-          "imageURL": ""
+          "imageURL": "images/j2.jpeg"
         },
         {
           "id": "jf3",
-          "name": "Jus d'ananas (عصير الأناناس)",
-          "description": "Jus d'ananas frais. (عصير أناناس طازج.)",
+          "name": "Jus d'ananas\nعصير الأناناس",
+          "description": "Jus d'ananas frais.\nعصير أناناس طازج.",
           "price": "28 DH",
           "imageURL": ""
         },
         {
           "id": "jf4",
-          "name": "Jus de mangue (عصير المانجو)",
-          "description": "Jus de mangue onctueux. (عصير مانجو.)",
+          "name": "Jus de mangue\nعصير المانجو",
+          "description": "Jus de mangue onctueux.\nعصير مانجو.",
           "price": "28 DH",
           "imageURL": ""
         },
         {
           "id": "jf5",
-          "name": "Jus de citron (عصير الليمون)",
-          "description": "Citronnade rafraîchissante. (عصير الحامض المنعش.)",
+          "name": "Jus de citron\nعصير الليمون",
+          "description": "Citronnade rafraîchissante.\nعصير الحامض المنعش.",
           "price": "16 DH",
           "imageURL": ""
         },
         {
           "id": "jf6",
-          "name": "Jus panaché (عصير باناشي)",
-          "description": "Mélange de fruits de saison. (كوكتيل فواكه مشكلة.)",
+          "name": "Jus panaché\nعصير باناشي",
+          "description": "Mélange de fruits de saison.\nكوكتيل فواكه مشكلة.",
           "price": "30 DH",
           "imageURL": ""
         },
         {
           "id": "jf7",
-          "name": "Jus d'avocat (عصير الأفوكادو)",
-          "description": "Jus d'avocat au lait. (عصير الأفوكادو بالحليب.)",
+          "name": "Jus d'avocat\nعصير الأفوكادو",
+          "description": "Jus d'avocat au lait.\nعصير الأفوكادو بالحليب.",
           "price": "26 DH",
           "imageURL": ""
         },
         {
           "id": "jf8",
-          "name": "Jus d'avocat aux fruits secs (عصير الأفوكادو بالفواكه الجافة)",
-          "description": "Jus d'avocat enrichi aux fruits secs. (عصير الأفوكادو مع الفواكه الجافة.)",
+          "name": "Jus d'avocat aux fruits secs\nعصير الأفوكادو بالفواكه الجافة",
+          "description": "Jus d'avocat enrichi aux fruits secs.\nعصير الأفوكادو مع الفواكه الجافة.",
           "price": "33 DH",
           "imageURL": ""
         },
         {
           "id": "jf9",
-          "name": "Jus de fraise (عصير الفراولة)",
-          "description": "Jus de fraise frais. (عصير الفراولة الطازج.)",
+          "name": "Jus de fraise\nعصير الفراولة",
+          "description": "Jus de fraise frais.\nعصير الفراولة الطازج.",
           "price": "24 DH",
           "imageURL": ""
         },
         {
           "id": "jf10",
-          "name": "Jus de pêche (عصير الخوخ)",
-          "description": "Jus de pêche frais. (عصير الخوخ الطازج.)",
+          "name": "Jus de pêche\nعصير الخوخ",
+          "description": "Jus de pêche frais.\nعصير الخوخ الطازج.",
           "price": "24 DH",
           "imageURL": ""
         }
@@ -114,97 +114,97 @@
     },
     {
       "id": "boissons-chaudes",
-      "name": "BOISSONS CHAUDES (مشروبات ساخنة)",
+      "name": "BOISSONS CHAUDES\nمشروبات ساخنة",
       "icon": "fas fa-mug-hot",
       "items": [
         {
           "id": "bc1",
-          "name": "Café Espresso (قهوة إسبريسو)",
-          "description": "Café noir court. (قهوة سوداء مركزة.)",
+          "name": "Café Espresso\nقهوة إسبريسو",
+          "description": "Café noir court.\nقهوة سوداء مركزة.",
           "price": "12 DH",
-          "imageURL": ""
+          "imageURL": "images/c1.jpeg"
         },
         {
           "id": "bc2",
-          "name": "Café Espresso avec sirop (قهوة إسبريسو بالنكهات)",
-          "description": "Caramel, Vanille, Noisette, Chocolat. (كراميل، فانيلا، بندق، شوكولاتة.)",
+          "name": "Café Espresso avec sirop\nقهوة إسبريسو بالنكهات",
+          "description": "Caramel, Vanille, Noisette, Chocolat.\nكراميل، فانيلا، بندق، شوكولاتة.",
           "price": "14 DH",
-          "imageURL": ""
+          "imageURL": "images/c2.jpeg"
         },
         {
           "id": "bc3",
-          "name": "Double Espresso (دوبل إسبريسو)",
-          "description": "Double dose de café noir. (جرعة مزدوجة من القهوة السوداء.)",
+          "name": "Double Espresso\nدوبل إسبريسو",
+          "description": "Double dose de café noir.\nجرعة مزدوجة من القهوة السوداء.",
           "price": "18 DH",
           "imageURL": ""
         },
         {
           "id": "bc4",
-          "name": "Café Américain (قهوة أمريكية)",
-          "description": "Espresso allongé à l'eau chaude. (إسبريسو مخفف بالماء الساخن.)",
+          "name": "Café Américain\nقهوة أمريكية",
+          "description": "Espresso allongé à l'eau chaude.\nإسبريسو مخفف بالماء الساخن.",
           "price": "14 DH",
           "imageURL": ""
         },
         {
           "id": "bc5",
-          "name": "Café Latte (كافي لاتيه)",
-          "description": "Café au lait mousseux. (قهوة بالحليب والرغوة.)",
+          "name": "Café Latte\nكافي لاتيه",
+          "description": "Café au lait mousseux.\nقهوة بالحليب والرغوة.",
           "price": "15 DH",
           "imageURL": ""
         },
         {
           "id": "bc6",
-          "name": "Lait au Chocolat (حليب بالشوكولاتة)",
-          "description": "Lait chaud au chocolat. (حليب ساخن ممزوج بالشوكولاتة.)",
+          "name": "Lait au Chocolat\nحليب بالشوكولاتة",
+          "description": "Lait chaud au chocolat.\nحليب ساخن ممزوج بالشوكولاتة.",
           "price": "16 DH",
           "imageURL": ""
         },
         {
           "id": "bc7",
-          "name": "Cappuccino (كابوتشينو)",
-          "description": "Espresso avec mousse de lait onctueuse. (إسبريسو مع رغوة الحليب الكثيفة.)",
+          "name": "Cappuccino\nكابوتشينو",
+          "description": "Espresso avec mousse de lait onctueuse.\nإسبريسو مع رغوة الحليب الكثيفة.",
           "price": "18 DH",
           "imageURL": ""
         },
         {
           "id": "bc8",
-          "name": "Thé à la Menthe (شاي بالنعناع)",
-          "description": "Thé marocain traditionnel. (شاي مغربي أصيل بالنعناع.)",
+          "name": "Thé à la Menthe\nشاي بالنعناع",
+          "description": "Thé marocain traditionnel.\nشاي مغربي أصيل بالنعناع.",
           "price": "13 DH",
           "imageURL": ""
         },
         {
           "id": "bc9",
-          "name": "Thé avec Fekass (شاي مع الفقاص)",
-          "description": "Thé servi avec du Fekass traditionnel. (شاي مقدم مع حلوى الفقاص.)",
+          "name": "Thé avec Fekass\nشاي مع الفقاص",
+          "description": "Thé servi avec du Fekass traditionnel.\nشاي مقدم مع حلوى الفقاص.",
           "price": "18 DH",
           "imageURL": ""
         },
         {
           "id": "bc10",
-          "name": "Thé Noir (شاي أسود)",
-          "description": "Infusion de thé noir. (شاي أسود.)",
+          "name": "Thé Noir\nشاي أسود",
+          "description": "Infusion de thé noir.\nشاي أسود.",
           "price": "12 DH",
           "imageURL": ""
         },
         {
           "id": "bc11",
-          "name": "Verveine (لويزة)",
-          "description": "Infusion de verveine apaisante. (منقوع اللويزة المهدئ.)",
+          "name": "Verveine\nلويزة",
+          "description": "Infusion de verveine apaisante.\nمنقوع اللويزة المهدئ.",
           "price": "12 DH",
           "imageURL": ""
         },
         {
           "id": "bc12",
-          "name": "Verveine au lait (لويزة بالحليب)",
-          "description": "Infusion de verveine au lait chaud. (منقوع اللويزة بالحليب الساخن.)",
+          "name": "Verveine au lait\nلويزة بالحليب",
+          "description": "Infusion de verveine au lait chaud.\nمنقوع اللويزة بالحليب الساخن.",
           "price": "16 DH",
           "imageURL": ""
         },
         {
           "id": "bc13",
-          "name": "Infusion au choix (منقوع أعشاب)",
-          "description": "Pêche, Citron, Fruits rouges. (خوخ، حامض، فواكه حمراء.)",
+          "name": "Infusion au choix\nمنقوع أعشاب",
+          "description": "Pêche, Citron, Fruits rouges.\nخوخ، حامض، فواكه حمراء.",
           "price": "18 DH",
           "imageURL": ""
         }
