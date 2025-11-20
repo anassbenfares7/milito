@@ -283,7 +283,8 @@ function initializeScrollHeader() {
     // Add/remove scrolled class based on scroll position
     if (currentScrollPosition > scrollThreshold) {
       header.classList.add('scrolled');
-      header.style.backgroundColor = 'rgba(0, 0, 0, 0.95)';
+      // Use primary color (#075548) with high opacity
+      header.style.backgroundColor = 'rgba(7, 85, 72, 0.95)';
     } else {
       header.classList.remove('scrolled');
       header.style.backgroundColor = 'transparent';

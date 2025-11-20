@@ -305,10 +305,10 @@ header {
 }
 
 header.scrolled {
-  background-color: rgba(0, 0, 0, 0.95);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(7, 85, 72, 0.95);
+  box-shadow: 0 4px 15px rgba(7, 85, 72, 0.3);
+  -webkit-box-shadow: 0 4px 15px rgba(7, 85, 72, 0.3);
+  -moz-box-shadow: 0 4px 15px rgba(7, 85, 72, 0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -2115,7 +2115,7 @@ body::-webkit-scrollbar-thumb {
 
   /* Tablet header responsiveness */
   header.scrolled {
-    background-color: rgba(0, 0, 0, 0.96);
+    background-color: rgba(7, 85, 72, 0.96);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
   }
@@ -2133,7 +2133,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   header.scrolled {
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(7, 85, 72, 0.98);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
   }
@@ -2145,7 +2145,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   header.scrolled .d-flex.justify-content-around.py-3 {
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(7, 85, 72, 0.98);
   }
 
   .contact-page .contact-us form {
