@@ -292,10 +292,9 @@ header {
   width: 100%;
   padding: 0;
   margin: 0;
-  box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
-  z-index: 9;
+  z-index: 9999;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .header {
@@ -306,8 +305,12 @@ header {
 }
 
 header.scrolled {
-  background-color: var(--primary-color);
-  transition: 0.3s all linear;
+  background-color: rgba(0, 0, 0, 0.95);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .logo h1 {
@@ -2109,12 +2112,40 @@ body::-webkit-scrollbar-thumb {
   .footer-checkout a, .footer-shopping a {
     font-size: 10px;
   }
+
+  /* Tablet header responsiveness */
+  header.scrolled {
+    background-color: rgba(0, 0, 0, 0.96);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+  }
 }
 
 @media screen and (max-width: 768px) {
   .page-banner {
     height: 300px;
     padding-top: 60px;
+  }
+
+  /* Enhanced mobile header responsiveness */
+  header {
+    z-index: 9999;
+  }
+
+  header.scrolled {
+    background-color: rgba(0, 0, 0, 0.98);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Mobile navigation improvements */
+  .d-flex.justify-content-around.py-3 {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  header.scrolled .d-flex.justify-content-around.py-3 {
+    background-color: rgba(0, 0, 0, 0.98);
   }
 
   .contact-page .contact-us form {

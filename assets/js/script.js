@@ -253,29 +253,73 @@ document.addEventListener("DOMContentLoaded", initializeMobileMenu);
  */
 
 /**
- * Fixed Header Positioning
- * Ensures header stays at top with proper styling
+ * Scroll-Based Header Background Controller
+ * Changes header background from transparent to black on scroll
  */
-function initializeFixedHeader() {
+function initializeScrollHeader() {
   const header = document.querySelector('header');
 
-  if (header) {
-    // Set header styles for fixed positioning
-    Object.assign(header.style, {
-      position: 'fixed',
-      top: '0',
-      left: '0',
-      width: '100%',
-      zIndex: '9999',
-      transition: 'transform 0.3s ease-in-out',
-      backgroundColor: 'rgba(0,0,0,0.8)'
-    });
+  if (!header) return;
+
+  // Set initial header styles
+  Object.assign(header.style, {
+    position: 'fixed',
+    top: '0',
+    left: '0',
+    width: '100%',
+    zIndex: '9999',
+    transition: 'background-color 0.3s ease-in-out',
+    backgroundColor: 'transparent'
+  });
+
+  // Scroll threshold for triggering background change
+  const scrollThreshold = 50;
+  let lastScrollPosition = 0;
+
+  // Handle scroll events
+  function handleScroll() {
+    const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Add/remove scrolled class based on scroll position
+    if (currentScrollPosition > scrollThreshold) {
+      header.classList.add('scrolled');
+      header.style.backgroundColor = 'rgba(0, 0, 0, 0.95)';
+    } else {
+      header.classList.remove('scrolled');
+      header.style.backgroundColor = 'transparent';
+    }
+
+    lastScrollPosition = currentScrollPosition;
   }
+
+  // Throttle scroll events for better performance
+  let ticking = false;
+  function requestTick() {
+    if (!ticking) {
+      requestAnimationFrame(handleScroll);
+      ticking = true;
+      setTimeout(() => { ticking = false; }, 16); // ~60fps
+    }
+  }
+
+  // Add scroll event listener
+  window.addEventListener('scroll', requestTick, { passive: true });
+
+  // Initial check in case page is already scrolled
+  handleScroll();
+}
+
+/**
+ * Fixed Header Positioning (Legacy - kept for compatibility)
+ */
+function initializeFixedHeader() {
+  // This function is now handled by initializeScrollHeader()
+  initializeScrollHeader();
 }
 
 // Initialize header on both load and DOMContentLoaded for reliability
-window.addEventListener('load', initializeFixedHeader);
-document.addEventListener('DOMContentLoaded', initializeFixedHeader);
+window.addEventListener('load', initializeScrollHeader);
+document.addEventListener('DOMContentLoaded', initializeScrollHeader);
 
 /**
  * ===================================
