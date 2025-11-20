@@ -338,7 +338,7 @@ function renderCategoryIndicators(categories) {
       <div class="indicators-icon ${index === 0 ? 'active' : ''} text-center">
         <i class="${category.icon} fa-2x"></i>
       </div>
-      <div class="indicators-title text-center fs-6 mt-2 flex-wrap">
+      <div class="indicators-title text-center fs-6 mt-2 flex-wrap" style="max-width: 50vw; margin: auto;">
         <h5>${category.name}</h5>
       </div>
     </div>

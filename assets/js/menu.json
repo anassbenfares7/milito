@@ -1,1737 +1,211 @@
 {
   "categories": [
     {
-      "id": "risotto",
-      "name": "RISOTTO",
-      "icon": "fas fa-bowl-rice",
+      "id": "petits-dejeuners",
+      "name": "PETITS DÉJEUNERS (فطور الصباح)",
+      "icon": "fas fa-bread-slice",
       "items": [
         {
-          "id": "r1",
-          "name": "Risotto Poulet",
-          "description": "",
-          "price": "65 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "r2",
-          "name": "Risotto au Gambas",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "r3",
-          "name": "Risotto 4 fromages",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "r4",
-          "name": "Risotto Fruit de mer",
-          "description": "",
-          "price": "75 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "r5",
-          "name": "Risotto à la truffe",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "r6",
-          "name": "Risotto au Saumon",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "burgers",
-      "name": "BURGERS",
-      "icon": "fas fa-hamburger",
-      "items": [
-        {
-          "id": "b1",
-          "name": "Chicken Crispy",
-          "description": "Bun, poulet crispy, cheddar, tomate, sauce burger",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "b2",
-          "name": "Classic Burger",
-          "description": "Bun, Steak haché, Cheddar Tomate, Salade, Cornichons, Oignon, Sauce burger",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "b3",
-          "name": "Napoli Burger",
-          "description": "Ciabatta, Steak haché 140g, Mozza, Parmesan, Tomate séchée, Roquette, Sauce pesto, Crème basilique",
-          "price": "65 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "b4",
-          "name": "Cheezy Burger",
-          "description": "Bun, Steak hachée 150, Cheddar, Oignon frit, Bacon de champignons, Iceberg, sauce barbecue",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "b5",
-          "name": "César Burger",
-          "description": "Ciabatta, Poulet grillée 150g, Cheddar, Poivron, Oignon frit, Roquette, Sauce césar",
-          "price": "79 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "sandwich",
-      "name": "SANDWICH",
-      "icon": "fas fa-sandwich",
-      "items": [
-        {
-          "id": "s1",
-          "name": "Viande hachée",
-          "description": "Viande hachée, Salade, Tomate, Fromage Cheddar",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "s2",
-          "name": "Poulet",
-          "description": "Poulet, Salade, tomate, Fromage Cheddar",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "s3",
-          "name": "Mixte",
-          "description": "Viande hachée, Poulet, Salade, tomate, Fromage Cheddar",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "s4",
-          "name": "Menu Delice",
-          "description": "Sandwich au choix, Frite, Salade crudite, Panacotta",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "s5",
-          "name": "Menu AZITALIA",
-          "description": "Sandwich au choix, Frite, Salade crudite, Mojito, Panacotta",
-          "price": "65 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "salades",
-      "name": "SALADES",
-      "icon": "fas fa-leaf",
-      "items": [
-        {
-          "id": "sal1",
-          "name": "Wakame Saumon",
-          "description": "Gomawakame, Saumon, Avocat, Concombre, Sauce tobiko à l'anguille Surimi",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal2",
-          "name": "Fruit de mer",
-          "description": "Saumon, Crevette, Calamar, Surimi, Avocat, Tomate cerise, Cramberry, Goma Wakame, Sauce balsamique orange",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal3",
-          "name": "Fraîcheur",
-          "description": "Mêlée de salade, Avocat, Maïs, Fromage, Gambas, Mangue, Roquette, Surimi, Tomate cerise, Haricot vert",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal4",
-          "name": "Chèvre chaud",
-          "description": "Fromage chèvre chaud, Noix, Sauce miel avec huile d'argan, Pomme vert, Mangue, Orange",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal5",
-          "name": "Poulpe",
-          "description": "Mêlé da salade, Poulpe, Avocat, Poivrons mariné, Olive noir, Tomate cerise, Sauce Chumichurri",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal6",
-          "name": "Burrata",
-          "description": "Mêlée de salade, Burrata, Pesto, tomate cerise, Tomates séchées, sauce pesto",
-          "price": "65 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal7",
-          "name": "Maison",
-          "description": "Mêlée de salade, Fromage, Maïs, Avocat, Pomme, Poulet",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal8",
-          "name": "Variée",
-          "description": "Mêlée de salade, Carotte, Betterave, Tomate, Concombre, Maïs, Thon, Oeuf Caille, Hariset vert",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal9",
-          "name": "Salade Roquette",
-          "description": "Roquette, Tomate cerise",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal10",
-          "name": "La César (Poulet ou Gambas)",
-          "description": "Mêlée de salade, Salade romaine, Croûton, Oeuf de Caille, Mozza, Parmesan, Tomate cerise, Oeuf Caille",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal11",
-          "name": "Gourmande",
-          "description": "Mêlée de salade, Ananas, Mangue, Avocat, Gambas, Framboise",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal12",
-          "name": "Mozza",
-          "description": "Tomate, Mozza bol, Sauce Pesto",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal13",
-          "name": "Udon",
-          "description": "Crabe, Saumon cuit, Surimi, Crevette, Udon, Roquette, Avocat, Shine, Tomate cerise, Légume croquants",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sal14",
-          "name": "Salade Tartare",
-          "description": "Saumon, Avocat, Tobiko",
-          "price": "50 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "sauces-salades",
-      "name": "SAUCES SALADES",
-      "icon": "fas fa-sauce",
-      "items": [
-        {
-          "id": "ss1",
-          "name": "Sauce Pesto",
-          "description": "",
-          "price": "",
-          "imageURL": ""
-        },
-        {
-          "id": "ss2",
-          "name": "Sauce Fruit de mer",
-          "description": "",
-          "price": "",
-          "imageURL": ""
-        },
-        {
-          "id": "ss3",
-          "name": "Sauce Vinaigre Balsamique",
-          "description": "",
-          "price": "",
-          "imageURL": ""
-        },
-        {
-          "id": "ss4",
-          "name": "Sauce Cesare",
-          "description": "",
-          "price": "",
-          "imageURL": ""
-        },
-        {
-          "id": "ss5",
-          "name": "Sauce Orange",
-          "description": "",
-          "price": "",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "poke-bowl",
-      "name": "POKE BOWL",
-      "icon": "fas fa-bowl-food",
-      "items": [
-        {
-          "id": "pb1",
-          "name": "Crevettes",
-          "description": "Crevette, Mangue, Goma wakame, Avocat, Framboise",
-          "price": "65 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pb2",
-          "name": "Saumon",
-          "description": "Saumon, Avocat, Maïs, Crotte, Gomawakame",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pb3",
-          "name": "AZITALIA",
-          "description": "Saumon, Avocat, Surimi, Crevette panée, Concombre, Tobiko",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pb4",
-          "name": "Poulet CRISPY",
-          "description": "Poulet pané, Mangue, Concombre, Tomate, Maïs",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pb5",
-          "name": "César",
-          "description": "Poulet grillé, Maïs, Carottes, Navet, Brocoli, Concombre",
-          "price": "49 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "plats",
-      "name": "PLATS",
-      "icon": "fas fa-utensils",
-      "items": [
-        {
-          "id": "pl1",
-          "name": "Émincé de poulet au champignon",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl2",
-          "name": "Picata de poulet",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl3",
-          "name": "Chicken Crunch",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl4",
-          "name": "Cordon Bleu",
-          "description": "",
-          "price": "79 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl5",
-          "name": "Marco Polo",
-          "description": "",
-          "price": "75 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl6",
-          "name": "Émincé de Bœuf au champignon",
-          "description": "",
-          "price": "79 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl7",
-          "name": "Entrecôte Grillé",
-          "description": "",
-          "price": "95 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl8",
-          "name": "Pavé de saumon",
-          "description": "",
-          "price": "95 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pl9",
-          "name": "Filet de Boeuf (170g)",
-          "description": "",
-          "price": "110 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "supplement-accompagnement",
-      "name": "SUPPLÉMENT ACCOMPAGNEMENT",
-      "icon": "fas fa-plus",
-      "items": [
-        {
-          "id": "sa1",
-          "name": "Portions Frite",
-          "description": "",
-          "price": "15 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sa2",
-          "name": "Légumes saute",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sa3",
-          "name": "Épinard à la crème",
-          "description": "",
-          "price": "20 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sa4",
-          "name": "Compote de tomate",
-          "description": "",
-          "price": "20 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sa5",
-          "name": "Purée de pomme de terre",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sa6",
-          "name": "Purée de polenta au parmesan",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "brochettes-au-charbon-de-bois",
-      "name": "BROCHETTES AU CHARBON DE BOIS",
-      "icon": "fas fa-fire-burner",
-      "items": [
-        {
-          "id": "bc1",
-          "name": "3 Brochettes de Viande hachée grillée au charbon de bois",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "bc2",
-          "name": "4 Brochettes au choix grillée au charbon de bois",
-          "description": "",
-          "price": "79 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "bc3",
-          "name": "3 Brochettes de poulet grillée au charbon de bois",
-          "description": "",
-          "price": "65 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "pizzas",
-      "name": "PIZZAS",
-      "icon": "fas fa-pizza-slice",
-      "items": [
-        {
-          "id": "pz1",
-          "name": "Pizza Margherita",
-          "description": "Sauce tomate, Mozzarella, Oignon",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz2",
-          "name": "La Thonara",
-          "description": "Sauce tomate, Mozzarella, Thon, Oignon, Olive noir",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz3",
-          "name": "La Charcuterie",
-          "description": "Sauce tomate, Mozzarella, Charcuterie, Oignon",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz4",
-          "name": "La Forestière",
-          "description": "Sauce tomate, Mozzarella, Poulet, Champignon, Oignon",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz5",
-          "name": "La Chicago",
-          "description": "Sauce tomate, Mozzarella, Viande hachée, Champignon, Oignon",
-          "price": "54 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz6",
-          "name": "La César",
-          "description": "Sauce blanche, Mozzarella, Poulet grillé, Salade romaine, Parmesan, Tomate séchée",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz7",
-          "name": "6 Fromages",
-          "description": "Sauce Blanche, Mozzarella, Brie, Chèvre, Bleu, Parmesan",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz8",
-          "name": "Marina",
-          "description": "Sauce tomate, Mozzarella, Crevette, Calamar, Oignon Palourd, Moules",
-          "price": "54 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz9",
-          "name": "Vigi",
-          "description": "Sauce blanche, Mozzarella, Légume grillée, Champignon, Tomate cerise, Roquette, Pesto, Parmesan",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz10",
-          "name": "AZITALIA",
-          "description": "Sauce tomate, Mozzarella, Pepperoni, Viande hachée, Saucisse, Oignon",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz11",
-          "name": "Saumon Fumé",
-          "description": "Sauce blanche, Mozzarella, Saumon, Gorgonzola, Oignon",
-          "price": "65 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz12",
-          "name": "Burrata",
-          "description": "Sauce tomate, Mozzarella, Champignon, Pesto, Roquette, Tomate cerise, Fromage, Burrata",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz13",
-          "name": "O Chef",
-          "description": "Sauce Blanche, Fromage Chèvre, Thon, miette Saumon",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz14",
-          "name": "AZITALIA Stracciatella",
-          "description": "Sauce blanche, Mozzarella, Champignon, Épinard, Olive noir, Roquette, Tomate cerise, Parmesan, Fromage Stracciatella, Parmesan",
-          "price": "75 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz15",
-          "name": "Stracciatella Jumbo",
-          "description": "Sauce blanche, Mozzarella, Champignon, Épinards, Tomate cerise, Roquette, Stracciatella, Parmesan, Jumbo",
-          "price": "75 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pz16",
-          "name": "Pizza Truffe",
-          "description": "Sauce Blanche, Champignon, Sauce Truffe, Avocat, Roquette, Tomate séchée, Parmesan",
-          "price": "85 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "brochettes",
-      "name": "BROCHETTES",
-      "icon": "fas fa-fire-burner",
-      "items": [
-        {
-          "id": "bro1",
-          "name": "Brochette Boeuf Fromage",
-          "description": "",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "bro2",
-          "name": "Brochette Boeuf Fromage pané",
-          "description": "",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "bro3",
-          "name": "Boulette de Poulet",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "soupes",
-      "name": "SOUPES",
-      "icon": "fas fa-bowl-food",
-      "items": [
-        {
-          "id": "sp1",
-          "name": "Soupe Fruit de mer",
-          "description": "Crevette, Calamar, Champignon noir, Saumon, Moules",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sp2",
-          "name": "Soupe AZITALIA",
-          "description": "Bouillon de poulet, Crevettes, Champignon, Poireaux, Carotte, Udon",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sp3",
-          "name": "Soupe Royale",
-          "description": "Crevette, Calamar, Champignon noir, Champignon frais, Poireaux, Wakame, Moules, Palourde",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sp4",
-          "name": "Soupe Miso",
-          "description": "Pate miso, Tofu",
-          "price": "35 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "sushi",
-      "name": "SUSHI",
-      "icon": "fas fa-fish-sushi",
-      "items": [
-        {
-          "id": "su1",
-          "name": "Classique",
-          "description": "Surimi, Avocat, Concombre, Tobiko",
-          "price": "29 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su2",
-          "name": "California Tobiko",
-          "description": "Avocat, Cheese, Concombre, Crevette, Tobiko",
-          "price": "34 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su3",
-          "name": "California Ebi Fry",
-          "description": "Crevette pané, Cheese, Avocat, Concombre",
-          "price": "36 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su4",
-          "name": "California Nadzo",
-          "description": "Surimi pané, Tobiko, Mozza",
-          "price": "36 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su5",
-          "name": "California King",
-          "description": "Crevette, Avocat",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su6",
-          "name": "California Shake Yaki",
-          "description": "Saumon cuit, Avocat, Sésame",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su7",
-          "name": "Saumon",
-          "description": "Saumon, Avocat, Sésame, Cheese",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su8",
-          "name": "California Majestic",
-          "description": "Surimi pané, Cheese, Avocat, Tobiko",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su9",
-          "name": "California Crème Cheese",
-          "description": "Saumon, Avocat, Cheese, Avocat, Tobiko",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su10",
-          "name": "California Double Gamba",
-          "description": "Double Crevette pané, Tobiko",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su11",
-          "name": "Fresh Roll Saumon",
-          "description": "Saumon, Avocat",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su12",
-          "name": "Fresh Saumon braisée",
-          "description": "Saumon braisé, Avocat, Cheese",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su13",
-          "name": "Saumon",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su14",
-          "name": "Crevette",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su15",
-          "name": "Unagi",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su16",
-          "name": "Fry Ebi Fry (5 pièces)",
-          "description": "Crevette, Tobiko, Cheese, Surimi",
-          "price": "43 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su17",
-          "name": "Crunchy Crevette (5 pièces)",
-          "description": "Crevette pané, Avocat.",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su18",
-          "name": "Fry Roll Saumon (5 pièces)",
-          "description": "Saumon, Avocat, Fromage, Tobiko",
-          "price": "46 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su19",
-          "name": "Crunchy (5 pièces)",
-          "description": "Crevette pané, Surimi",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su20",
-          "name": "Sushi Pizza Moza (8 pièces)",
-          "description": "Saumon, Avocat, Surimi, Mozzarella",
-          "price": "54 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su21",
-          "name": "Sushi Pizza Saumon (8 pièces)",
-          "description": "Saumon, Avocat, Surimi, Tobiko",
-          "price": "54 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su22",
-          "name": "Maki Gratinée Saumon (6 pièces)",
-          "description": "Fromage gouda, Surimi pané, Saumon cuit",
-          "price": "40 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "su23",
-          "name": "Maki Gratinée Crevette (6 pièces)",
-          "description": "Crevette, Fromage goda, Fromage, Tobiko",
-          "price": "39 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "assortiment-sushi",
-      "name": "ASSORTIMENT SUSHI",
-      "icon": "fas fa-boxes-stacked",
-      "items": [
-        {
-          "id": "as1",
-          "name": "Kids Box",
-          "description": "14 Pieces",
-          "price": "75 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as2",
-          "name": "Rainbow Box",
-          "description": "14 Pieces",
-          "price": "85 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as3",
-          "name": "Crunchy Box",
-          "description": "16 Pieces",
-          "price": "95 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as4",
-          "name": "Salamon Box",
-          "description": "18 Pieces",
-          "price": "145 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as5",
-          "name": "Fresh Box",
-          "description": "16 Pieces",
-          "price": "99 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as6",
-          "name": "Daily Box",
-          "description": "18 Pieces",
-          "price": "99 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as7",
-          "name": "California Box",
-          "description": "20 Pieces",
-          "price": "115 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as8",
-          "name": "Happy Box",
-          "description": "29 Pieces",
-          "price": "109 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as9",
-          "name": "Cheese Box",
-          "description": "22 Pieces",
-          "price": "109 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as10",
-          "name": "Tanuki Box",
-          "description": "22 Pieces",
-          "price": "109 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as11",
-          "name": "Selected Box",
-          "description": "23 Pieces",
-          "price": "129 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as12",
-          "name": "Funny Box",
-          "description": "27 Pieces",
-          "price": "125 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as13",
-          "name": "Philadelphia Box",
-          "description": "27 Pieces",
-          "price": "139 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as14",
-          "name": "Mix Box",
-          "description": "32 Pieces",
-          "price": "149 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as15",
-          "name": "Fry Box",
-          "description": "34 Pieces",
-          "price": "140 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as16",
-          "name": "Gourmet Box",
-          "description": "36 Pieces",
-          "price": "199 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as17",
-          "name": "Familia Box",
-          "description": "50 Pieces",
-          "price": "225 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as18",
-          "name": "Fuji Box",
-          "description": "50 Pieces",
-          "price": "249 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "as19",
-          "name": "AZITALIA Box",
-          "description": "50 Pieces",
-          "price": "279 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "lunch",
-      "name": "LUNCH",
-      "icon": "fas fa-sun",
-      "items": [
-        {
-          "id": "l1",
-          "name": "Lunch 1",
-          "description": "Soupe de poisson, Riz sauté ou bien 6 Crevette pannés avec sauce Kamikaze + 12 pièces de Sushi (Crunchy, Crunchy Ebi Fry, Sushi Pizza)",
-          "price": "105 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l2",
-          "name": "Lunch 2",
-          "description": "Soupe de poisson, Riz sauté ou bien 6 Crevette pannés avec sauce Kamikaze + 2 Boulettes de poulet, 2 Nems crevettes",
-          "price": "105 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l3",
-          "name": "Lunch 3",
-          "description": "4 Croquettes de saumon ou bien 6 Crevettes pannés avec sauce Kamikaze + 2 Boulettes de poulet, 2 Nems Crevettes",
-          "price": "95 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l4",
-          "name": "Lunch 4",
-          "description": "4 Croquettes de saumon ou bien 6 Crevettes pannés avec sauce Kamikaze + 1 Boeuf fromage, 2 Nems Crevettes",
-          "price": "95 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l5",
-          "name": "Lunch Midi 1",
-          "description": "Salade, 3 pièces crevette pané, 3 pieces fry Ebi Fry, Boisson",
-          "price": "89 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l6",
-          "name": "Lunch Midi 2",
-          "description": "Salade, 3Nems au choix (Crevette, Poulet), 3 Crevette, Poulet, 1 Brochette Boeuf, Boisson",
-          "price": "85 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l7",
-          "name": "Lunch Midi 3",
-          "description": "Salade, 4 California Cheese, 4 California Double gamba, Classique, Boisson",
-          "price": "75 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "l8",
-          "name": "Lunch Midi 4",
-          "description": "Salade, 4 Fry Salmon Fry, 4 Fry Saumon pané, 4 Saumon, 3 pièces crevettes pannés, Boisson",
-          "price": "89 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "pates",
-      "name": "PATES (Penne, Tagliatelle, Spaghetti) / PATES GRATINEES",
-      "icon": "fas fa-spaghetti-monster-flying",
-      "items": [
-        {
-          "id": "pa1",
-          "name": "Classic",
-          "description": "Sauce blanche ou tomate",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa2",
-          "name": "Bolognaise",
-          "description": "",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa3",
-          "name": "4 Fromages",
-          "description": "",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa4",
-          "name": "Poulet Pesto à la crème",
-          "description": "",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa5",
-          "name": "Pollo",
-          "description": "",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa6",
-          "name": "Carbonara",
-          "description": "",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa7",
-          "name": "Truffe",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa8",
-          "name": "Saumon",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa9",
-          "name": "Fruit de mer",
-          "description": "",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa10",
-          "name": "Nero",
-          "description": "Sauce Fruit de Mer",
-          "price": "69 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa11",
-          "name": "Lasagne Bolognaise",
-          "description": "Lasagne, Sauce tomate, Viande hachée",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa12",
-          "name": "Lasagne Funghi",
-          "description": "Lasagne, Sauce tomate, Champignon",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa13",
-          "name": "Cannelloni Bolognaise",
-          "description": "Cannelloni, Sauce tomate, Viande hachée",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "pa14",
-          "name": "Cannelloni Truffe",
-          "description": "Cannelloni, Truffe",
-          "price": "59 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "supplement-gratinee",
-      "name": "SUPPLÉMENT GRATINÉE",
-      "icon": "fas fa-cheese",
-      "items": [
-        {
-          "id": "sg1",
-          "name": "Supplément gratinée au choix",
-          "description": "",
-          "price": "15 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "maki-6-pieces",
-      "name": "MAKI 6 PIÈCES",
-      "icon": "fas fa-sushi",
-      "items": [
-        {
-          "id": "m61",
-          "name": "Saumon, Avocat",
-          "description": "",
-          "price": "32 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "m62",
-          "name": "Concombre, Avocat, Cheese",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "m63",
-          "name": "Surimi",
-          "description": "",
+          "id": "pd1",
+          "name": "EXPRESS (إكسبريس)",
+          "description": "3 Mini Viennoiseries, Boisson chaude au choix, Jus d'orange. (3 ميني كرواسون، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
           "price": "26 DH",
           "imageURL": ""
         },
         {
-          "id": "m64",
-          "name": "Avocat",
-          "description": "",
-          "price": "25 DH",
+          "id": "pd2",
+          "name": "SPÉCIAL (سبسيال)",
+          "description": "Œuf au choix (omelette ou œuf au plat), Huile d'olive, Olives Noires, Fromage, Corbeille de pain, Boisson chaude au choix, Jus d'orange. (بيض حسب الاختيار (أومليت أو عيون)، زيت زيتون، زيتون أسود، جبن، سلة خبز، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "price": "26 DH",
           "imageURL": ""
         },
         {
-          "id": "m65",
-          "name": "Ebi Fry",
-          "description": "",
-          "price": "25 DH",
+          "id": "pd3",
+          "name": "PIZZA MAROCAINE (بيتزا مغربية)",
+          "description": "Pain complet, Fromage, Huile d'olive, Thym, Olives noires, Boisson chaude au choix, Jus d'orange. (خبز كامل، جبن، زيت زيتون، زعتر، زيتون أسود، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "price": "26 DH",
           "imageURL": ""
         },
         {
-          "id": "m66",
-          "name": "Saumon Cheese",
-          "description": "",
-          "price": "30 DH",
+          "id": "pd4",
+          "name": "FASSI (فاسي)",
+          "description": "Œuf au khlii, Huile d'olive, Olives Noires, Corbeille de pain, Boisson chaude au choix, Jus d'orange. (بيض بالخليع، زيت زيتون، زيتون أسود، سلة خبز، مشروب ساخن حسب الاختيار، عصير البرتقال.)",
+          "price": "32 DH",
           "imageURL": ""
         }
       ]
     },
     {
-      "id": "aromaki-8-pieces",
-      "name": "AROMAKI 8 PIÈCES",
-      "icon": "fas fa-sushi",
-      "items": [
-        {
-          "id": "a81",
-          "name": "Aromaki Saumon exotique",
-          "description": "Saumon, Mangue, Avocat, Surimi, Tobiko, Fromage",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "a82",
-          "name": "Aromaki Saumon",
-          "description": "Saumon, Avocat, Surimi, Tobiko, Fromage",
-          "price": "49 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "a83",
-          "name": "Aromaki Crevette",
-          "description": "Crevette, Surimi, Avocat, Tobiko, Cheese",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "a84",
-          "name": "Aromaki Zen",
-          "description": "Crevette, Avocat, Cheese, Tobiko",
-          "price": "55 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "sashimis",
-      "name": "SASHIMIS",
-      "icon": "fas fa-fish",
-      "items": [
-        {
-          "id": "sh1",
-          "name": "Saumon (5 pièces)",
-          "description": "",
-          "price": "45 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "gunkin-2-pieces",
-      "name": "Gunkin 2 PIÈCES",
-      "icon": "fas fa-fish",
-      "items": [
-        {
-          "id": "g21",
-          "name": "Saumon",
-          "description": "",
-          "price": "40 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "g22",
-          "name": "Crevette",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "aromaki-fry-6-pieces",
-      "name": "AROMAKI FRY 6 PIÈCES",
-      "icon": "fas fa-sushi",
-      "items": [
-        {
-          "id": "af1",
-          "name": "Crevette",
-          "description": "",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "af2",
-          "name": "Saumon",
-          "description": "",
-          "price": "60 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "handrolls-1p",
-      "name": "HANDROLLS (1P)",
-      "icon": "fas fa-sushi",
-      "items": [
-        {
-          "id": "hr1",
-          "name": "Crevette",
-          "description": "Crevette, Surimi, Avocat, Cheese, Tobiko",
-          "price": "30 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "hr2",
-          "name": "Saumon",
-          "description": "Saumon, Avocat",
-          "price": "35 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "futomaki-6-pieces",
-      "name": "FUTOMAKI 6 PIÈCES",
-      "icon": "fas fa-sushi",
-      "items": [
-        {
-          "id": "f61",
-          "name": "Crevette",
-          "description": "Crevette, Surimi, Avocat, Concombre",
-          "price": "40 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "f62",
-          "name": "Classique",
-          "description": "Concombre, Avocat",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "f63",
-          "name": "Saumon",
-          "description": "Saumon, Avocat",
-          "price": "38 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "f64",
-          "name": "Crevette, Surimi, Concombre",
-          "description": "",
-          "price": "36 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "f65",
-          "name": "Saumon, Surimi, Concombre",
-          "description": "",
-          "price": "36 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "dessert",
-      "name": "DESSERT",
-      "icon": "fas fa-ice-cream",
-      "items": [
-        {
-          "id": "d1",
-          "name": "Panacota fruit rouge",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d2",
-          "name": "Bannoffee pie",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d3",
-          "name": "Fondant chocolat",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d4",
-          "name": "Crème Brûlée",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d5",
-          "name": "Crème Brûlée Pistache",
-          "description": "",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d6",
-          "name": "Cheese Cake Fruit Rouge",
-          "description": "",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d7",
-          "name": "Tarte Citron",
-          "description": "",
-          "price": "30 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "d8",
-          "name": "Tiramisu",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "jus",
-      "name": "JUS",
+      "id": "jus-frais",
+      "name": "____JUS FRAIS____ (عصائر طازجة)",
       "icon": "fas fa-glass-water",
       "items": [
         {
-          "id": "j1",
-          "name": "Litchi Gingembre",
-          "description": "",
-          "price": "35 DH",
+          "id": "jf1",
+          "name": "Jus d'orange (عصير البرتقال)",
+          "description": "Jus d'oranges fraîchement pressées. (عصير برتقال طازج.)",
+          "price": "20 DH",
           "imageURL": ""
         },
         {
-          "id": "j2",
-          "name": "Citron Gingembre",
-          "description": "",
+          "id": "jf2",
+          "name": "Jus de banane (عصير الموز)",
+          "description": "Jus onctueux à la banane. (عصير موز كريمي.)",
+          "price": "18 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "jf3",
+          "name": "Jus d'ananas (عصير الأناناس)",
+          "description": "Jus d'ananas frais. (عصير أناناس طازج.)",
+          "price": "28 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "jf4",
+          "name": "Jus de mangue (عصير المانجو)",
+          "description": "Jus de mangue onctueux. (عصير مانجو.)",
+          "price": "28 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "jf5",
+          "name": "Jus de citron (عصير الليمون)",
+          "description": "Citronnade rafraîchissante. (عصير الحامض المنعش.)",
+          "price": "16 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "jf6",
+          "name": "Jus panaché (عصير باناشي)",
+          "description": "Mélange de fruits de saison. (كوكتيل فواكه مشكلة.)",
           "price": "30 DH",
           "imageURL": ""
         },
         {
-          "id": "j3",
-          "name": "Fraise Framboise",
-          "description": "",
-          "price": "25 DH",
+          "id": "jf7",
+          "name": "Jus d'avocat (عصير الأفوكادو)",
+          "description": "Jus d'avocat au lait. (عصير الأفوكادو بالحليب.)",
+          "price": "26 DH",
           "imageURL": ""
         },
         {
-          "id": "j4",
-          "name": "Mojito",
-          "description": "",
-          "price": "22 DH",
+          "id": "jf8",
+          "name": "Jus d'avocat aux fruits secs (عصير الأفوكادو بالفواكه الجافة)",
+          "description": "Jus d'avocat enrichi aux fruits secs. (عصير الأفوكادو مع الفواكه الجافة.)",
+          "price": "33 DH",
           "imageURL": ""
         },
         {
-          "id": "j5",
-          "name": "Jus d'orange",
-          "description": "",
-          "price": "19 DH",
+          "id": "jf9",
+          "name": "Jus de fraise (عصير الفراولة)",
+          "description": "Jus de fraise frais. (عصير الفراولة الطازج.)",
+          "price": "24 DH",
           "imageURL": ""
         },
         {
-          "id": "j6",
-          "name": "Jus de mangue",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "j7",
-          "name": "Betterave & orange",
-          "description": "",
-          "price": "25 DH",
+          "id": "jf10",
+          "name": "Jus de pêche (عصير الخوخ)",
+          "description": "Jus de pêche frais. (عصير الخوخ الطازج.)",
+          "price": "24 DH",
           "imageURL": ""
         }
       ]
     },
     {
-      "id": "boissons",
-      "name": "BOISSONS",
-      "icon": "fas fa-wine-glass",
+      "id": "boissons-chaudes",
+      "name": "BOISSONS CHAUDES (مشروبات ساخنة)",
+      "icon": "fas fa-mug-hot",
       "items": [
         {
-          "id": "bd1",
-          "name": "Soda 30cl",
-          "description": "",
+          "id": "bc1",
+          "name": "Café Espresso (قهوة إسبريسو)",
+          "description": "Café noir court. (قهوة سوداء مركزة.)",
+          "price": "12 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "bc2",
+          "name": "Café Espresso avec sirop (قهوة إسبريسو بالنكهات)",
+          "description": "Caramel, Vanille, Noisette, Chocolat. (كراميل، فانيلا، بندق، شوكولاتة.)",
+          "price": "14 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "bc3",
+          "name": "Double Espresso (دوبل إسبريسو)",
+          "description": "Double dose de café noir. (جرعة مزدوجة من القهوة السوداء.)",
+          "price": "18 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "bc4",
+          "name": "Café Américain (قهوة أمريكية)",
+          "description": "Espresso allongé à l'eau chaude. (إسبريسو مخفف بالماء الساخن.)",
+          "price": "14 DH",
+          "imageURL": ""
+        },
+        {
+          "id": "bc5",
+          "name": "Café Latte (كافي لاتيه)",
+          "description": "Café au lait mousseux. (قهوة بالحليب والرغوة.)",
           "price": "15 DH",
           "imageURL": ""
         },
         {
-          "id": "bd2",
-          "name": "Eau minérale 50cl",
-          "description": "",
-          "price": "10 DH",
+          "id": "bc6",
+          "name": "Lait au Chocolat (حليب بالشوكولاتة)",
+          "description": "Lait chaud au chocolat. (حليب ساخن ممزوج بالشوكولاتة.)",
+          "price": "16 DH",
           "imageURL": ""
         },
         {
-          "id": "bd3",
-          "name": "Eau minérale 75cl",
-          "description": "",
-          "price": "20 DH",
+          "id": "bc7",
+          "name": "Cappuccino (كابوتشينو)",
+          "description": "Espresso avec mousse de lait onctueuse. (إسبريسو مع رغوة الحليب الكثيفة.)",
+          "price": "18 DH",
           "imageURL": ""
         },
         {
-          "id": "bd4",
-          "name": "Eau minérale 1,5L",
-          "description": "",
-          "price": "20 DH",
+          "id": "bc8",
+          "name": "Thé à la Menthe (شاي بالنعناع)",
+          "description": "Thé marocain traditionnel. (شاي مغربي أصيل بالنعناع.)",
+          "price": "13 DH",
           "imageURL": ""
         },
         {
-          "id": "bd5",
-          "name": "Oulmes 50cl",
-          "description": "",
-          "price": "15 DH",
+          "id": "bc9",
+          "name": "Thé avec Fekass (شاي مع الفقاص)",
+          "description": "Thé servi avec du Fekass traditionnel. (شاي مقدم مع حلوى الفقاص.)",
+          "price": "18 DH",
           "imageURL": ""
         },
         {
-          "id": "bd6",
-          "name": "Nespresso",
-          "description": "",
-          "price": "20 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "signature-rolls",
-      "name": "SIGNATURE ROLLS",
-      "icon": "fas fa-scroll",
-      "items": [
-        {
-          "id": "sr1",
-          "name": "Natsu Roll",
-          "description": "6 pièces",
-          "price": "45 DH",
+          "id": "bc10",
+          "name": "Thé Noir (شاي أسود)",
+          "description": "Infusion de thé noir. (شاي أسود.)",
+          "price": "12 DH",
           "imageURL": ""
         },
         {
-          "id": "sr2",
-          "name": "Avocado Roll",
-          "description": "5 pièces",
-          "price": "45 DH",
+          "id": "bc11",
+          "name": "Verveine (لويزة)",
+          "description": "Infusion de verveine apaisante. (منقوع اللويزة المهدئ.)",
+          "price": "12 DH",
           "imageURL": ""
         },
         {
-          "id": "sr3",
-          "name": "Lucky Roll",
-          "description": "5 pièces",
-          "price": "55 DH",
+          "id": "bc12",
+          "name": "Verveine au lait (لويزة بالحليب)",
+          "description": "Infusion de verveine au lait chaud. (منقوع اللويزة بالحليب الساخن.)",
+          "price": "16 DH",
           "imageURL": ""
         },
         {
-          "id": "sr4",
-          "name": "Aziane Roll",
-          "description": "5 pièces",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sr5",
-          "name": "Lover Roll",
-          "description": "5 pièces",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sr6",
-          "name": "Dragon Saumon",
-          "description": "5 pièces",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sr7",
-          "name": "Unagi Roll",
-          "description": "5 pièces",
-          "price": "59 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sr8",
-          "name": "Volcano Roll",
-          "description": "5 pièces",
-          "price": "55 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "sr9",
-          "name": "Spicy Crabe Roll",
-          "description": "5 pièces",
-          "price": "55 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "wok-riz-cotonnais",
-      "name": "WOK/ RIZ COTONNAIS",
-      "icon": "fas fa-wok",
-      "items": [
-        {
-          "id": "wc1",
-          "name": "Nouilles/ Riz cotonnais vegetarien",
-          "description": "",
-          "price": "40 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "wc2",
-          "name": "Nouilles/ Riz cotonnais poulet",
-          "description": "",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "wc3",
-          "name": "Nouilles/ Riz cotonnais crevette",
-          "description": "",
-          "price": "50 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "wc4",
-          "name": "Nouilles/ Riz cotonnais boeuf",
-          "description": "",
-          "price": "60 DH",
-          "imageURL": ""
-        }
-      ]
-    },
-    {
-      "id": "starters",
-      "name": "STARTERS",
-      "icon": "fas fa-cookie-bite",
-      "items": [
-        {
-          "id": "st1",
-          "name": "Purée de pomme de terre",
-          "description": "Pomme de terre",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st2",
-          "name": "Purée de polenta au parmesan",
-          "description": "",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st3",
-          "name": "Gomawakame",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st4",
-          "name": "Edamame",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st5",
-          "name": "Spicy Edamame",
-          "description": "",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st6",
-          "name": "Riz Nature",
-          "description": "Riz",
-          "price": "15 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st7",
-          "name": "Riz Vinaigré",
-          "description": "Riz",
-          "price": "20 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st8",
-          "name": "Riz Sauté",
-          "description": "Riz",
-          "price": "25 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st9",
-          "name": "Crevettes Panés",
-          "description": "9 pièces",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st10",
-          "name": "Chicken Fingers",
-          "description": "5 pièces",
-          "price": "45 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st11",
-          "name": "Nems Poulet (3 pièces)",
-          "description": "",
-          "price": "30 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st12",
-          "name": "Nems Crevette (3 pièces)",
-          "description": "",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st13",
-          "name": "Nems Mixte (3 pièces)",
-          "description": "",
-          "price": "39 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st14",
-          "name": "Croquette Poulet",
-          "description": "4 pièces",
-          "price": "35 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st15",
-          "name": "Croquette Saumon",
-          "description": "4 pièces",
-          "price": "40 DH",
-          "imageURL": ""
-        },
-        {
-          "id": "st16",
-          "name": "Croquette Crevette",
-          "description": "4 pièces",
-          "price": "40 DH",
+          "id": "bc13",
+          "name": "Infusion au choix (منقوع أعشاب)",
+          "description": "Pêche, Citron, Fruits rouges. (خوخ، حامض، فواكه حمراء.)",
+          "price": "18 DH",
           "imageURL": ""
         }
       ]

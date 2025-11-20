@@ -1,35 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <!-- ===================================
-         RESTAURANT TEMPLATE - CUSTOMIZATION GUIDE
-         =================================== -->
-
-    <meta charset="utf-8" />
+  <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Description -->
-    <meta name="description" content="AZITALIA — Restaurant fusion à Casablanca, combinant cuisine italienne et asiatique. Réservez votre table ou commandez à emporter.">
-
+    <meta name="description" content="menu MILITO — notre histoire, notre équipe et notre passion pour la cuisine italienne et asiatique.">
     <meta name="theme-color" content="#d4af37">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="AZITALIA — Fusion Italien & Asiate à Casablanca">
-    <meta property="og:description" content="Vivez une expérience culinaire unique : sushi, pizzas italiennes et plats asiatiques dans un cadre moderne à Casablanca.">
-    <meta property="og:image" content="https://www.oum-keltoum.netlify.app/assets/images/banner-img.webp">
-    <meta property="og:type" content="restaurant">
-
-    <link rel="canonical" href="https://azitalia.ma/index.html">
-
+    <meta property="og:title" content="menu — MILITO">
+    <meta property="og:description" content="Découvrez l'histoire et la philosophie d'MILITO Restaurant à Casablanca, où l’Italie rencontre l’Asie.">
+    <!-- <meta property="og:image" content="https://www.milito.ma/assets/images/banner-img.webp"> -->
+    <link rel="canonical" href="https://milito.ma">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
     <script type="application/ld+json">
     {
       "@context":"https://schema.org",
       "@type":"Restaurant",
-      "name":"AZITALIA Restaurant",
+      "name":"MILITO caffee",
+      "servesCuisine":"Italian, Asian fusion",
       "address":{
         "@type":"PostalAddress",
         "streetAddress":"Lotissement Selouane, Lot N°5 & 6, Magasin N°1, Hay Oulfa",
@@ -38,17 +26,51 @@
         "addressCountry":"MA"
       },
       "telephone":"+212666380141",
-      "openingHours":"Mo-Su 11:00-24:00",
-      "servesCuisine":"Italian, Asian fusion"
+      "openingHours":"Mo-Su 11:00-24:00"
     }
     </script>
 
-    <link rel="icon" type="image/x-icon" href="./assets/images/AZITALIA logo circle.png" />
+  <!-- <link rel="icon" type="image/x-icon" href="./assets/images/AZITALIA logo circle.png" /> -->
+    <title>MILITO - Menu</title>
 
-    <title>AZITALIA — Restaurant Italien & Asiatique à Casablanca</title>
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- OPTIMIZED CSS LOADING -->
+    <!-- Google Fonts Montserrat -->    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Non-critical CSS loaded async -->
+    <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/style.css"></noscript>
+
+    <link rel="preload" href="./assets/css/menu-lightbox.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/menu-lightbox.css"></noscript>
+
+    <!-- Optimized Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Resource Preconnect for faster CDN loading -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://code.jquery.com" crossorigin>
+
+    <!-- DNS Prefetch for future requests -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    <link rel="dns-prefetch" href="//code.jquery.com">
+
+    <!-- Preload critical CSS -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
 
@@ -57,12 +79,23 @@
 
     <link rel="preload" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"></noscript>
-  </head>
 
+    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="preload" href="https://code.jquery.com/jquery-3.7.1.min.js" as="script" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" as="script" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    <link rel="preload" href="./assets/js/script.js" as="script">
+    <!-- Google Fonts Montserrat -->    
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Montserrat -->    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
   <body>
     <div class="loader">
       <i class="fas fa-utensils loader-icone"></i>
-      <p>AZITALIA</p>
+      <p>MILITO</p>
       <div class="loader-ellipses">
         <span></span>
         <span></span>
@@ -71,56 +104,38 @@
     </div>
 
     <header class="bg-transparent">
-      <div class="container header my-3 d-none d-lg-flex">
+      <div class="container header my-3 d-none d-lg-flex justify-content-center align-items-center">
         <div class="logo">
-          <a href="./index.html">
+          <a href="./">
             <i class="fa fa-utensils text-white me-3"></i>
-            <h2 class="mb-0 text-white">AZITALIA</h2>
+            <h2 class="mb-0 text-white">MILITO</h2>
           </a>
         </div>
-        <div class="menus">
-          <ul class="d-flex mb-0">
-            <li class="list-unstyled py-2">
-              <a class="text-decoration-none text-uppercase p-4 text-white" href="./index.html">Accueil</a>
-            </li>
-            <li class="list-unstyled py-2">
-              <a class="text-decoration-none text-uppercase p-4 text-white" href="./about.html">À Propos</a>
-            </li>
-            <li class="list-unstyled py-2">
-              <a class="text-decoration-none text-uppercase p-4 text-white" href="./reservation.html">Réservation</a>
-            </li>
-            <li class="list-unstyled py-2">
-              <a class="text-decoration-none text-uppercase p-4 text-white" href="./menu.html">Menu</a>
-            </li>
-            <li class="list-unstyled py-2">
-              <a class="text-decoration-none text-uppercase p-4 text-white" href="./contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+        
         <div class="icons"></div>
       </div>
 
       <div class="d-flex justify-content-around py-3 align-items-center d-lg-none">
-        <div id="hamburger"><i class="fa fa-2x fa-bars me-3 text-white"></i></div>
+        <div id="hamburger"></div>
         <div class="mobile-nav-logo">
           <div class="logo">
-            <a href="./index.html">
+            <a href="./">
               <i class="fa fa-utensils text-white me-3"></i>
-              <h1 class="mb-0 text-white">AZITALIA</h1>
+              <h1 class="mb-0 text-white">MILITO</h1>
             </a>
           </div>
         </div>
         <div class="mobile-nav-icons">
-          <div class="icons">
+          <!-- <div class="icons">
             <a class="text-decoration-none" id="searchBtnMobile" href="#"></a>
             <a class="text-decoration-none" id="shoppingbuttonMobile" href="#"></a>
-          </div>
+          </div> -->
         </div>
         <div class="position-fixed w-75 bg-white h-100 top-0 start-0" id="mobile-menu">
-          <div id="hamburger-cross" class="d-flex justify-content-end align-items-center py-2">
+          <!-- <div id="hamburger-cross" class="d-flex justify-content-end align-items-center py-2">
             <i class="fa fa-2x fa-plus me-3"></i>
-          </div>
-          <div class="menus">
+          </div> -->
+          <!-- <div class="menus">
             <ul class="d-flex flex-column ps-2 mb-0 mt-4">
               <li class="list-unstyled py-3">
                 <a class="text-dark text-decoration-none text-uppercase p-4" href="./index.html">Accueil</a>
@@ -138,296 +153,86 @@
                 <a class="text-dark text-decoration-none text-uppercase p-4" href="./contact.html">Contact</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </header>
 
-    <main>
-      <section class="banner py-5">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-md-6 banner-content pe-5" data-aos="fade-right">
-              <h1 class="display-2">Voyage Culinaire<br>Italie & Asie</h1>
-              <p>
-                Plats italiens, sushis frais et créations asiatiques réunis dans un cadre moderne et chaleureux à Casablanca.
-              </p>
-              <div class="banner-buttons d-flex align-items-center mt-4">
-                <div class="book-a-table">
-                  <div class="anim-layer"></div>
-                  <a href="./reservation.html">Réserver une table</a>
+    <!-- Noscript navigation fallback -->
+    <noscript>
+      <div class="alert alert-warning m-3">
+        JavaScript is disabled. Please enable JavaScript for full functionality.
+      </div>
+    </noscript>
+
+    <div class="search-bar d-none" id="search-container">
+      <div class="close-btn" id="search-close-btn">
+      </div>
+      <div class="search-bar-wrapper">
+        <input type="search" placeholder="Enter any text here..." />
+        <div class="search-button">
+        </div>
+      </div>
+    </div>
+
+    <main class="menu-page">
+        <section class="page-banner d-flex align-items-center">
+          <div class="container"> 
+            <div class="row">
+              <div class="banner-content">
+                <h2 class="text-white display-3 text-center" data-aos="fade-right" data-aos-delay="100">MENU</h2>
+                <div class="divider" data-aos="fade-up-right" data-aos-delay="200">
+                    <div class="dot mb-2"></div>
                 </div>
-                <div class="view-menu-btn ms-3">
-                  <div class="anim-layer"></div>
-                  <a href="./menu.html">Voir le menu</a>
-                </div>
-              </div>
+                <p class="text-center">Découvrez nos spécialités marocaines authentiques</p>
+            </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="services my-5 py-5">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-md-3">
-              <div class="cards px-4 py-5" data-aos="fade-right">
-                <div class="anim-layer"></div>
-                <div class="icon"><i class="fa fa-3x fa-utensils mb-4"></i></div>
-                <div class="heading"><h5>Chefs Passionnés</h5></div>
-                <div class="para"><p>Nos chefs maîtrisent à la fois les saveurs italiennes et asiatiques pour créer des plats innovants.</p></div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="cards px-4 py-5" data-aos="fade-down">
-                <div class="anim-layer"></div>
-                <div class="icon"><i class="fa fa-3x fa-pizza-slice mb-4"></i></div>
-                <div the="heading"><h5>Pizzas Authentiques</h5></div>
-                <div class="para"><p>Pizzas italiennes traditionnelles, élaborées avec ingrédients de qualité.</p></div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="cards px-4 py-5" data-aos="fade-up">
-                <div class="anim-layer"></div>
-                <div class="icon"><i class="fa fa-3x fa-fish mb-4"></i></div>
-                <div the="heading"><h5>Sushi & Assortiments</h5></div>
-                <div class="para"><p>Assortiments de sushi de 12 à 60 pièces, frais et parfaitement présentés.</p></div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="cards px-4 py-5" data-aos="fade-left">
-                <div class="anim-layer"></div>
-                <div class="icon"><i class="fa fa-3x fa-clock mb-4"></i></div>
-                <div the="heading"><h5>Ouvert 7j/7</h5></div>
-                <div class="para"><p>Venez nous voir tous les jours de 11:00 à minuit, pour le déjeuner ou le dîner.</p></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="about-us py-5 my-5">
-        <div class="container">
-          <div class="row gy-5 g-lg-5 align-items-center">
-            <div class="col-lg-6 about-img-box">
-              <div class="row g-3">
-                <div class="col-6" data-aos="fade-right">
-                  <picture>
-                    <source srcset="./assets/images/decor-3.webp" type="image/webp">
-                    <source srcset="./assets/images/decor-3.jpg" type="image/jpeg">
-                    <img src="./assets/images/decor-3.jpg" alt="Intérieur moderne du restaurant AZITALIA – fusion Italie et Asie" class="img-fluid rounded w-100" loading="lazy">
-                  </picture>
-                </div>
-                <div class="col-6 text-right" data-aos="fade-down">
-                  <picture>
-                    <source srcset="./assets/images/decor-7.webp" type="image/webp">
-                    <source srcset="./assets/images/decor-7.jpg" type="image/jpeg">
-                    <img src="./assets/images/decor-7.jpg" alt="Ambiance chaleureuse AZITALIA" class="img-fluid rounded w-75" loading="lazy">
-                  </picture>
-                </div>
-                <div class="col-6 text-end" data-aos="fade-right">
-                  <picture>
-                    <source srcset="./assets/images/decor-4.webp" type="image/webp">
-                    <source srcset="./assets/images/decor-4.jpg" type="image/jpeg">
-                    <img src="./assets/images/decor-4.jpg" alt="Décor soigné AZITALIA" class="img-fluid rounded w-75" loading="lazy">
-                  </picture>
-                </div>
-                <div class="col-6 text-end" data-aos="fade-up">
-                  <picture>
-                    <source srcset="./assets/images/decor-5.webp" type="image/webp">
-                    <source srcset="./assets/images/decor-5.jpg" type="image/jpeg">
-                    <img src="./assets/images/decor-5.jpg" alt="Salle à manger élégante AZITALIA" class="img-fluid rounded w-100" loading="lazy">
-                  </picture>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 about-content" data-aos="fade-left">
-              <h5 class="section-title">À Propos de Nous</h5>
-              <h2 class="mb-4 dis">Bienvenue chez <i class="fa fa-utensils me-2"></i>AZITALIA</h2>
-              <p class="mb-4">AZITALIA est un restaurant à Casablanca qui fusionne l’Italie et l’Asie : pizzas artisanales, sushis frais et plats inspirés de la cuisine asiatique, le tout dans un cadre moderne.</p>
-              <p class="mb-4">Notre mission est de proposer une expérience culinaire unique, où chaque plat exprime la rencontre de deux traditions gastronomiques. Nous utilisons des ingrédients frais et des recettes créatives, servis avec passion et attention.</p>
-              <div class="row g-4 mb-4 about-extra">
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center px-3 about-experience">
-                    <h1 class="flex-shrink-0 mb-0">X</h1>
-                    <div class="ps-4">
-                      <p class="mb-0">Cuisine</p>
-                      <h6 class="text-uppercase mb-0">Fusion</h6>
+        <section class="our-menu pt-5 mb-5">
+            <div class="container-fluid">
+                <div class="row" data-aos="fade-right">
+                    <h2 class="text-center display-6 fw-bold">Nos Spécialités</h2>
+                    <div class="menu-line d-flex justify-content-center align-items-center">
+                        <span></span>
                     </div>
-                  </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center px-3 about-popular">
-                    <h1 class="flex-shrink-0 mb-0">X</h1>
-                    <div class="ps-4">
-                      <p class="mb-0">Ambiance</p>
-                      <h6 class="text-uppercase mb-0">Chaleureuse</h6>
-                    </div>
-                  </div>
+              <div class="row  position-relative" id="sliders-indicator" style="width: 100%; margin: auto;" data-aos="fade-left">
+                <div class="slider slider-indicators-wrapper justify-content-center">
+                  <!-- Category indicators will be dynamically inserted here -->
                 </div>
               </div>
-              <div class="book-a-table">
-                <div class="anim-layer"></div>
-                <a href="/about.html">En savoir plus</a>
+              <div id="our-menus" class="slider" data-aos="fade-up">
+                <!-- Menu items will be dynamically inserted here -->
               </div>
+
             </div>
-          </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div class="menu-lightbox">
+            <div class="menu-lightbox-content">
+                <picture>
+                    <source srcset="" type="image/webp">
+                    <img src="" alt="Agrandissement du plat sélectionné du menu OUM KELTOUM" class="menu-lightbox-image" loading="lazy">
+                </picture>
+                <div class="menu-lightbox-placeholder" style="display: none;">
+                    <i class="fas fa-image"></i>
+                    <p>Image non disponible</p>
+                </div>
+                <div class="menu-lightbox-title"></div>
+                <button class="menu-lightbox-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
         </div>
-      </section>
-
-      <section class="our-chefs py-5">
-        <div class="container">
-          <div class="row" data-aos="fade-right">
-            <div class="section-title text-center">
-              <h5>Rencontrez Nos</h5>
-              <h2 class="display-6 fw-bold">Chefs Passionnés</h2>
-            </div>
-          </div>
-
-          <div class="row our-chef-slider-wrapper py-5" data-aos="fade-left">
-            <div class="col-lg-4">
-              <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
-                <picture>
-                  <source srcset="./assets/images/team-01.webp" type="image/webp">
-                  <source srcset="./assets/images/team-01.png" type="image/png">
-                  <img src="./assets/images/team-01.png" alt="Chef du restaurant AZITALIA, portrait professionnel" loading="lazy" width="200px">
-                </picture>
-                <div class="chef-slider-content">
-                  <h5 class="text-center d-block">Chef Principal</h5>
-                  <p class="text-center mb-0">Créatif</p>
-                  <div class="d-flex justify-content-center"><hr class="w-25 my-2"></div>
-                  <ul class="list-unstyled d-flex justify-content-center">
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
-                <picture>
-                  <source srcset="./assets/images/team-02.webp" type="image/webp">
-                  <source srcset="./assets/images/team-02.png" type="image/png">
-                  <img src="./assets/images/team-02.png" alt="Chef AZITALIA spécialiste des pizzas" loading="lazy" width="200px">
-                </picture>
-                <div class="chef-slider-content">
-                  <h5 class="text-center d-block">Chef Pizza</h5>
-                  <p class="text-center mb-0">Italien</p>
-                  <div class="d-flex justify-content-center"><hr class="w-25 my-2"></div>
-                  <ul class="list-unstyled d-flex justify-content-center">
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
-                <picture>
-                  <source srcset="./assets/images/team-03.webp" type="image/webp">
-                  <source srcset="./assets/images/team-03.png" type="image/png">
-                  <img src="./assets/images/team-03.png" alt="Chef Sushi AZITALIA" loading="lazy" width="200px">
-                </picture>
-                <div class="chef-slider-content">
-                  <h5 class="text-center d-block">Chef Sushi</h5>
-                  <p class="text-center mb-0">Asiatique</p>
-                  <div class="d-flex justify-content-center"><hr class="w-25 my-2"></div>
-                  <ul class="list-unstyled d-flex justify-content-center">
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
-                    <li class="mx-2"><a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="our-gallery pt-5">
-        <div class="container-fluid pt-5">
-          <div class="row">
-            <div class="section-title text-center" data-aos="fade-right">
-              <h5>Notre Galerie</h5>
-              <h2 class="text-white display-6 fw-bold">Mets d’Exception</h2>
-            </div>
-          </div>
-          <div class="row pt-5">
-            <div class="col-md-3 p-0">
-              <div data-aos="fade-down-right">
-                <picture>
-                  <source srcset="./assets/images/decor-1.webp" type="image/webp">
-                  <source srcset="./assets/images/decor-1.jpg" type="image/jpeg">
-                  <img src="./assets/images/decor-1.jpg" alt="Sushi élégant d’AZITALIA" class="img-fluid w-100" loading="lazy" style="height: 650px; object-fit: cover;">
-                </picture>
-              </div>
-            </div>
-            <div class="col-md-6 p-0">
-              <div class="row m-0">
-                <div class="col-md-8 p-0">
-                  <div data-aos="fade-down">
-                    <picture>
-                      <source srcset="./assets/images/decor-2.webp" type="image/webp">
-                      <source srcset="./assets/images/decor-2.jpg" type="image/jpeg">
-                      <img src="./assets/images/decor-2.jpg" alt="Pizza artisanale d’AZITALIA" class="img-fluid w-100" loading="lazy" style="height: 325px; object-fit: cover;">
-                    </picture>
-                  </div>
-                </div>
-                <div class="col-md-4 p-0">
-                  <div data-aos="fade-down">
-                    <picture>
-                      <source srcset="./assets/images/decor-6.webp" type="image/webp">
-                      <source srcset="./assets/images/decor-6.jpg" type="image/jpeg">
-                      <img src="./assets/images/decor-6.jpg" alt="Plat asiatique d’AZITALIA" class="img-fluid w-100" loading="lazy" style="height: 325px; object-fit: cover;">
-                    </picture>
-                  </div>
-                </div>
-              </div>
-              <div class="row m-0">
-                <div class="col-md-4 p-0">
-                  <div data-aos="fade-up">
-                    <picture>
-                      <source srcset="./assets/images/decor-11.webp" type="image/webp">
-                      <source srcset="./assets/images/decor-11.jpg" type="image/jpeg">
-                      <img src="./assets/images/decor-11.jpg" alt="Autre création AZITALIA" class="img-fluid w-100" loading="lazy" style="height: 325px; object-fit: cover;">
-                    </picture>
-                  </div>
-                </div>
-                <div class="col-md-8 p-0">
-                  <div data-aos="fade-up">
-                    <picture>
-                      <source srcset="./assets/images/decor-9.webp" type="image/webp">
-                      <source srcset="./assets/images/decor-9.jpg" type="image/jpeg">
-                      <img src="./assets/images/decor-9.jpg" alt="Fusion de saveurs AZITALIA" class="img-fluid w-100" loading="lazy" style="height: 325px; object-fit: cover;">
-                    </picture>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 p-0">
-              <div data-aos="fade-up-left">
-                <picture>
-                  <source srcset="./assets/images/decor-12.jpg" type="image/webp">
-                  <source srcset="./assets/images/decor-12.jpg" type="image/jpeg">
-                  <img src="./assets/images/decor-12.jpg" alt="Ambiance AZITALIA" class="img-fluid w-100" loading="lazy" style="height: 650px; object-fit: cover;">
-                </picture>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
 
     <a href="#" id="back-to-top">
       <i class="fa-solid fa-angles-up"></i>
     </a>
 
+    <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
@@ -435,9 +240,9 @@
             <div class="row">
               <div class="col-lg-6 px-0">
                 <div class="logo" data-aos="fade-down-right">
-                  <a href="./index.html">
+                  <a href="/">
                     <i class="fa fa-utensils me-3"></i>
-                    <h1 class="mb-0">AZITALIA</h1>
+                    <h1 class="mb-0">MILITO</h1>
                   </a>
                 </div>
               </div>
@@ -454,7 +259,7 @@
             </div>
             <div class="row pt-5 content-desc" data-aos="fade-right">
               <p class="px-0">
-                AZITALIA, restaurant fusion à Casablanca, réunit les traditions italiennes et asiatiques. Venez déguster nos pizzas, sushis et créations originales dans une ambiance conviviale et moderne.
+                Café Milito est un petit café de quartier proposant une ambiance calme et conviviale. Un lieu simple où les clients viennent profiter d’un bon café, discuter ou se détendre dans un cadre discret. Idéal pour une pause rapide ou un moment tranquille entre amis.
               </p>
             </div>
             <div class="row" data-aos="fade-right">
@@ -463,8 +268,8 @@
                   <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                   <div class="ps-3">
                     <p class="mb-0">
-                      Lotissement Selouane, Hay Oulfa, Casablanca <br>
-                      20230, Maroc
+                      G8XH+Q66, Bd Laymoune <br>
+                      Casablanca 20220
                     </p>
                   </div>
                 </div>
@@ -472,7 +277,7 @@
                   <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                   <div class="ps-3">
                     <p class="mb-0">
-                      <a style="text-decoration: none;color:white" href="tel:+212666380141">0666-380141</a> <br>
+                      <a style="text-decoration: none;color:white" href="tel:+212611223344">0611223344</a> <br>
                   </p>
                   </div>
                 </div>
@@ -480,7 +285,7 @@
                   <i class="fa-solid fa-envelope text-white fa-2x border-bottom pb-2"></i>
                   <div class="ps-3">
                     <p class="mb-0">
-                      contact@azitalia.ma <br>
+                      contact@milito.ma <br>
                     </p>
                   </div>
                 </div>
@@ -492,32 +297,36 @@
               <div class="reservation-wrapper">
                 <h2>Horaires d'Ouverture</h2>
                 <div class="reservation-date-time">
-                  <p>Lundi: ............................ 11:00 - 00:00</p>
-                  <p>Mardi: ............................ 11:00 - 00:00</p>
-                  <p>Mercredi: ........................ 11:00 - 00:00</p>
-                  <p>Jeudi: ............................. 11:00 - 00:00</p>
-                  <p>Vendredi: ........................ 11:00 - 00:00</p>
-                  <p>Samedi: .......................... 11:00 - 00:00</p>
-                  <p>Dimanche: ....................... 11:00 - 00:00</p>
+                  <p>Lundi: ............................ 07:00 - 23:00</p>
+                  <p>Mardi: ............................ 07:00 - 23:00</p>
+                  <p>Mercredi: ........................ 07:00 - 23:00</p>
+                  <p>Jeudi: ............................. 07:00 - 23:00</p>
+                  <p>Vendredi: ........................ 07:00 - 23:00</p>
+                  <p>Samedi: .......................... 07:00 - 23:00</p>
+                  <p>Dimanche: ....................... 07:00 - 23:00</p>
                 </div>
                 <h2 class="pb-2">Réservations</h2>
-                <h3><a style="color:white" href="tel:+212666380141">+212 666-380141</a></h3>
+                <h3><a style="color:white" href="tel:+212611223344">0611223344</a></h3>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear">2025</span> <b> AZITALIA</b>. Tous droits réservés.</p>
+          <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear">2025</span> <b> MILITO</b>. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
-
-    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
     <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script defer src="./assets/js/script.js"></script>
-    <script defer src="./assets/js/performance-monitor.js"></script>
-    <script defer src="./webp-support.js"></script>
-  </body>
+
+    <!-- WebP Support -->
+      </body>
 </html>
